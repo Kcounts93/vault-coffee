@@ -1,0 +1,30 @@
+// Custom.scss
+// Include any default variable overrides here (though functions won't be available)
+$primary: #363434;
+$secondary: #517c63;
+$primary-font-family: "gill-sans-nova";
+$light: #e4d9c5;
+$dark: #1c1c1c;
+$font-family-base: "gill-sans-nova";
+$font-family-secondary: "Cormorant Garamond", sans-serif;
+* {
+  font-family: $font-family-base;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background-color: $light;
+}
+
+.logo {
+  font-family: $font-family-secondary;
+  font-size: 2rem;
+}
+
+.btn {
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+// Then add additional custom code here
