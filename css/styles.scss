@@ -21,9 +21,24 @@ body {
   font-size: 2rem;
 }
 
+.sponsor-logos {
+  height: 50px;
+  width: auto;
+}
+
 .btn {
   font-weight: 400;
   font-style: normal;
+}
+
+.card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+.card:hover {
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
