@@ -44,9 +44,7 @@
       </div>
       <div class="col-lg-6">
         <h1 class="display-5 lh-1 mb-3">Welcome to Vault Coffee</h1>
-        <p class="lead mb-3">Built in 1904, the EXCHANGE NATIONAL BANK of Coeur d’Alene has also served as an ice cream
-          parlor, a pharmacy and even the town’s library! We're proud to continually serve many generations that gather
-          on this corner for our coffee.</p>
+        <p class="lead mb-3">Originally the Exchange National Bank of Coeur d’Alene, now a local favorite proud to continually serve many generations our locally crafted coffee.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
 
           <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
@@ -63,11 +61,11 @@
   <div class="container px-4 py-5" id="custom-cards">
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
       <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+        <div class="card card-cover h-100 overflow-hidden bg-dark text-light rounded-4 shadow-lg"
           style="background-image: url('/img/coffeeroast.jpg');">
           <div class="d-flex justify-content-center flex-column h-100 p-5 text-shadow-1">
             <h3 class="display-6 py-5 lh-1 text-center">
-              Locally Roasted Espresso and Coffee
+              Locally roasted espresso and coffee
             </h3>
           </div>
         </div>
@@ -75,11 +73,11 @@
 
       <div class="col">
 
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+        <div class="card card-cover h-100 overflow-hidden bg-dark text-light rounded-4 shadow-lg"
           style="background-image: url('/img/coffee-flight-2.jpeg')">
           <div class="d-flex justify-content-center flex-column h-100 p-5 text-shadow-1">
             <h3 class="display-6 py-5 lh-1 text-center">
-              Breakfast and Lunch Items Made in House
+              Seasonal coffee flight samplers
             </h3>
 
           </div>
@@ -87,22 +85,25 @@
       </div>
 
       <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+        <div class="card card-cover h-100 overflow-hidden bg-dark text-light rounded-4 shadow-lg"
           style="background-image: url('/img/coffeemerch.jpg')">
           <div class="d-flex justify-content-center flex-column h-100 p-5 text-shadow-1">
             <h3 class="display-6 py-5 lh-1 text-center">
-              Locally Made and Sourced Merchandise
+              Breakfast and lunch items made in house
             </h3>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+<!-- About -->
+
   <!-- Partners -->
-  <div class="container-fluid px-4 py-5 bg-light" id="partners">
+  <div class="container-fluid px-5 py-5 bg-primary" id="partners">
     <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
       <div class="d-flex flex-column align-items-start gap-2">
-        <h3 class="display-6">
+        <h3 class="display-6 text-light">
           Meet our partners
         </h3>
         <p class="text-muted">
@@ -112,8 +113,40 @@
         </p>
         <a href="#" class="btn btn-primary btn-lg">Order now</a>
       </div>
-      <div class="row row-cols-1 row-cols-sm-2 g-4">
-        <div class="d-flex flex-column gap-2">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner border border-primary bg-light p-5 rounded-4 ">
+          <div class="carousel-item active">
+            <img src="/img/doma.svg" class="sponsor-logos" alt="...">
+            
+            <h4 class="mb-1">Doma Coffee, Post Falls ID</h4>
+            <p class="text-muted">
+            Since 2000, DOMA has roasted high quality, ethically- sourced, direct-relationship coffees. As leaders in
+            the Fair Trade movement, they believe their business should be a positive force in both the local and global
+            economies. These guys and gals know their coffee.
+          </p>
+          </div>
+          <div class="carousel-item">
+            <img class="sponsor-logos bg-dark" src="/img/elmwoodinn.avif" alt="doma coffee logo">
+          <h4 class="mb-1">Elmwood Inn Fine Teas, Danville KY</h4>
+          <p class="text-muted">
+            Southern folks really know their stuff when it comes to tea. We carry over 20 of their varieties including
+            ceremonial grade matcha. This isn't your grandmother's tea (but we bet she'll love it too.)
+          </p>
+          </div>
+          <div class="carousel-item">
+            <img class="sponsor-logos" src="/img/wildjune.png" alt="doma coffee logo">
+    
+          <h4 class="mb-0">Wild June Co.</h4>
+          <p class="text-muted">
+            Body care can be simple, honest, and natural while still being FUN! Wild June Co. enjoys making fresh
+            locally sourced body care products every day, and believe that simple, skin-nourishing ingredients are best.
+            They use lots of shea butter, coconut oil, olive oil, beeswax and tallow in their products.
+          </p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row row-cols-1 row-cols-sm-2 g-4">
+        <div class="d-flex flex-column gap-2 bg-light rounded-4 p-3">
           <div class="align-items-center justify-content-center">
             <img class="sponsor-logos" src="/img/doma.svg" alt="doma coffee logo">
           </div>
@@ -125,7 +158,7 @@
           </p>
         </div>
 
-        <div class="d-flex flex-column gap-2 p-3 shadow-lg rounded">
+        <div class="d-flex flex-column gap-2 bg-light rounded-4 p-3">
           <div class="align-items-center justify-content-center">
             <img class="sponsor-logos bg-dark" src="/img/elmwoodinn.avif" alt="doma coffee logo">
           </div>
@@ -136,7 +169,7 @@
           </p>
         </div>
 
-        <div class="d-flex flex-column gap-2">
+        <div class="d-flex flex-column gap-2 bg-light rounded-4 p-3">
           <div class="align-items-center justify-content-center">
             <img class="sponsor-logos" src="/img/wildjune.png" alt="doma coffee logo">
           </div>
@@ -148,7 +181,7 @@
           </p>
         </div>
 
-        <div class="d-flex flex-column gap-2">
+        <div class="d-flex flex-column gap-2 bg-light rounded-4 p-3">
           <div class="align-items-center justify-content-center">
             <img class="sponsor-logos" src="/img/coffeeworks.png" alt="doma coffee logo">
           </div>
@@ -157,7 +190,7 @@
             Coffee Works systems were specifically designed with the coffee shops, roasters, and restaurants in mind, who are looking for an easier and efficient way to brew large batches of cold brew coffee. Coffee Works provides us with high quality equipment to brew you high quality cold brew.
           </p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
   <!-- Footer -->
