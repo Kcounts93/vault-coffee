@@ -118,14 +118,14 @@
             </div>
           </div>
         </div>
-        <div class="d-none d-sm-flex col-lg-6 flex-column justify-content-center">
+        <div class="d-none d-md-flex col-lg-6 flex-column justify-content-center">
           <div class="row mb-1">
-            <div class="col-6"> 
+            <div class="col-5"> 
               <div class="card square-card border-0 m-0 card-cover h-100 overflow-hidden">
               <img src="/img/vault-images-1.jpeg">
             </div>
           </div>   
-            <div class="col-6">
+            <div class="col">
               <div class="card square-card border-0 m-0 h-100">
               </div>
             </div>
@@ -135,19 +135,19 @@
                 <div class="card square-card border-0 h-100">
                 </div>
               </div>
-              <div class="col-6"> 
+              <div class="col-5"> 
                 <div class="card square-card border-0 m-0 card-cover h-100 overflow-hidden">
                   <img src="/img/coffeeroast.jpg">
               </div>
             </div>  
               </div>
               <div class="row">
-                <div class="col-6 m-0"> 
+                <div class="col-5 m-0"> 
                   <div class="card square-card border-0 m-0 card-cover h-100 overflow-hidden">
                   <img src="/img/vault-white.jpeg">
                 </div>
               </div>   
-                <div class="col-6">
+                <div class="col">
                   <div class="card square-card border-0 m-0 h-100">
                   </div>
                 </div>
@@ -224,6 +224,60 @@
         </div>
       </div>
     </div>
+    <!-- contact us -->
+    <section class="container p-5" id="contact">
+      <div class="row">
+        <h2 class="mb-3">Contact us today!</h2>
+        <hr>
+        <div class="col mt-3">
+          <div class="contact-info d-flex flex-column mb-4">
+            <i class="bi bi-clock"> 6:00AM - 6:00PM</i>
+            <i class="bi bi-geo-alt"> 324 Sherman Ave, Coeur d'Alene, ID 83814</i>
+            <i class="bi bi-telephone"> 208.966.4193</i>
+          </div>
+          <div class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10746.282669763666!2d-116.7813688!3d47.6733363!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5361c6604a8d81f3%3A0x53e91faa7fc2318e!2sVault%20Coffee!5e0!3m2!1sen!2sus!4v1688778119818!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          
+        </div>
+        <div class="col mt-3">
+          <form id="contactForm" class="needs-validation" novalidate>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required>
+              <div class="invalid-feedback">
+                Please provide your name.
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="row">
+                <div class="col">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid email address.
+                  </div>
+                </div>
+                <div class="col">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input type="tel" class="form-control" id="phone" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid phone number.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
+              <div class="invalid-feedback">
+                Please enter a message.
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </section>
     <!-- Footer -->
     <div class="container">
       <footer
