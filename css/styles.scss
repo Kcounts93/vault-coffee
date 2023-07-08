@@ -3,6 +3,7 @@
 $primary: #363434;
 $secondary: #517c63;
 $primary-font-family: "gill-sans-nova";
+$grey: #dccfcf;
 $light: #f1f1f1;
 $dark: rgb(63, 63, 63);
 $font-family-base: "gill-sans-nova";
@@ -34,13 +35,6 @@ body {
 .btn {
   font-weight: 400;
   font-style: normal;
-}
-
-.card {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: overlay;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
