@@ -4,10 +4,8 @@ $primary: #2c2323;
 $secondary: #724444;
 $primary-font-family: "gill-sans-nova";
 $grey: #dccfcf;
-$light: #f1f1f1;
-$bg-card-transparent: #ffffff;
-$bg-light-grey: #3e3e3e;
-$dark: rgb(63, 63, 63);
+$light: #f4f4f4;
+$dark: #2c2323;
 $font-family-base: "gill-sans-nova";
 $font-family-secondary: "Cormorant Garamond", sans-serif;
 
@@ -21,6 +19,11 @@ $font-family-secondary: "Cormorant Garamond", sans-serif;
 
 body {
   background-color: $light;
+}
+
+p {
+  font-size: 18px;
+  line-height: 2rem;
 }
 
 .logo {
@@ -45,6 +48,12 @@ body {
 
 div > .card > i {
   font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.carousel-item p {
+  font-size: 16px;
+  line-height: 1.5rem;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
